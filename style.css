@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+    font-size: 40px
+}
+
+body{
+    background: rgb(192, 177, 158);
+    font-family: monospace;
+}
+
+ul{
+    margin-top: 100px;
+    margin-right: 0px;
+    width: fit-content;
+    min-width: 1850px;
+}
+
+main{
+    min-height: 1100px;
+}
+
+li{
+    font-size: 60px;
+}
+
+img{
+    margin-left: 40px;
+    margin-right: 100px;
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 200px;
+    display: none;
+}
+
+li:hover > img{
+    display: initial;
+}
