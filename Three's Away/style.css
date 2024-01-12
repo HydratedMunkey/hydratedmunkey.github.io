@@ -1,0 +1,109 @@
+*{
+    /* border: 2px solid purple; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #B2CEDE;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+}
+
+#explanation{
+    margin: auto;
+    margin-top: 3%;
+    width: 60%;
+    display: none;
+}
+
+#die-container{
+    margin: auto;
+    width: fit-content;
+}
+
+canvas{
+    border: 2px solid black;
+    cursor: not-allowed;
+}
+
+button{ 
+    margin-bottom: 5%;
+    font-size: 50px;
+    width: 300px;
+    height: 150px;
+    border-radius: 35%;
+    color: white;
+    margin-top: 10%;
+    background-color: cadetblue;
+    border: 3px solid black;
+    font-weight: 530;
+    cursor: pointer;
+}
+
+#button-container, #player2-dice{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: darkblue;
+}
+
+#score-box{
+    display: inline-block;
+    border: 3px solid black;
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    left: 20px;
+    padding: 1.5em;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+#score-box > h2{
+    text-align: left;
+    font-size: 2rem;
+}
+
+#settings{
+    position: absolute;
+    right: 20px;
+    width: 350px;
+    height: fit-content;
+    padding: 1.5em;
+    border: 3px solid black;
+}
+
+label{
+    font-size: 2rem;
+}
+
+#settings, #score-box{
+    background: #7F557D;
+    color: white;
+}
+
+#restart-button{
+    display: none;
+}
+
+#player2-dice{
+    pointer-events: none;
+}

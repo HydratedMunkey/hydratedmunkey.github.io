@@ -1,0 +1,55 @@
+body{
+    background-image: url("calendar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkgray;
+
+    font-size: bold;
+    text-align: center;
+}
+
+main{
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+h1{
+    background-color: rgb(240, 230, 140, .5);
+}
+
+h2{
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+#counter-display{
+    background-color: rgb(240, 230, 140, .5);
+}
+
+button{
+    font-size: 70px;
+    background-color: black;
+    font-weight: bold;
+    font-family: "Helvetica";
+    color: white;
+
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    margin: 25px 10px;
+}
+
+#increase-btn:hover{
+    background-color: green;
+}
+
+#decrease-btn:hover{
+    background-color: pink
+}
+
+#reset-btn:hover{
+    background-color: gainsboro;
+}

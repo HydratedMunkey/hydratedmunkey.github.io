@@ -1,0 +1,69 @@
+h3{
+    text-transform: uppercase;
+}
+
+p{
+    text-align: right;
+    font-family: Arial;
+}
+
+body{
+    background-image: url("https://images.techopedia.com/images/uploads/dreamstime_m_90633667.jpg");
+}
+
+a{
+    font-size: 16px;
+    font-style: italic;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+}
+
+header{
+    border-style: solid;
+    background-color: coral;
+}
+
+main{
+    background-color: coral;
+    height: 80%;
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+    min-height: 600px;
+}
+
+footer{
+    background-color: coral;
+    margin: 50px;
+    padding: 10px;
+}
+
+.job-title{
+    font-weight: bold;
+    color: maroon;
+}
+
+.large-list{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ol ul {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+}
+
+img:hover{
+    height: 400px;
+    width: 400px;
+    transition: width 1s, height 1s;
+}

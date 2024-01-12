@@ -1,0 +1,87 @@
+body{
+    background: rgb(184, 230, 230);
+    font-family: helvetica;
+    font-size: 34px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+#header{
+    text-align: center;
+    font-size: 50px;
+    border: 10px solid rgb(77, 169, 185);
+    font-family: Georgia;
+    color: rgb(31, 168, 134);
+    padding: 1em;
+
+}
+
+#letters > h1:hover{
+    border: 10px solid darkcyan;
+    background-color: lightblue;
+}
+
+main{
+    color: darkcyan
+}
+
+#letters{
+    margin-left: 100px
+}
+
+#instructions{
+    text-align: center;
+}
+
+#letters > h1::first-letter{
+    color: rgb(31, 168, 134);
+}
+
+#C:hover::after{
+    content: "reative: I have good ideas";
+}
+
+#H:hover::after{
+    content: "ardworking: I work hard to get things done";
+}
+
+#R:hover::after{
+    content: "ational: I make good descisions";
+}
+
+#I:hover::after{
+    content: "neffable: I'm too amazing for words ";
+}
+
+#S:hover::after{
+    content: "killed: I'm good at the things I enjoy";
+}
+
+#T:hover::after{
+    content: "eachable: I learn quickly"
+}
+
+#O:hover::after{
+    content: "pen-minded: I'm open to new ideas"
+}
+
+#P:hover::after{
+    content: "atient: I don't mind delays"
+}
+
+#H2:hover::after{
+    content: "onest: I'm always truthful"
+}
+
+#E:hover::after{
+    content: "asy-going: I'm laid back"
+}
+
+#R2:hover::after{
+    content: "apid: I work quickly"
+}

@@ -1,0 +1,64 @@
+main{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+body{
+    background: lavenderblush;
+}
+
+button{
+    font-size: 60px;
+    padding: 0.5em;
+    margin-left: 30px;
+    border: 7px solid purple;
+    background: white;
+    font-family: Trebuchet MS;
+}
+
+
+button:hover{
+    background: rgb(133, 144, 209);
+}
+
+button:active{
+    border: 7px inset blueviolet;
+    color: white;
+}
+
+.clicked{
+    background: deepskyblue;
+}
+
+.content{
+    width: 600px;
+}
+
+.padding{
+    padding: 1.5em;
+    background: blueviolet;
+}
+
+.border{
+    border: 10px dashed darkred;
+}
+
+
+section{
+    background: deeppink;
+    width: fit-content;
+}
+
+img{
+    width: 400px;
+}
+
+.margin{
+    margin: 20px; 
+}

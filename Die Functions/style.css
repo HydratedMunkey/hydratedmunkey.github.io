@@ -1,0 +1,46 @@
+canvas{
+    border: 2px solid black;
+}
+
+#die1{
+    margin-left: 25%;
+}
+
+#die2{
+    margin-right: 25%;
+    float: right;
+}
+
+button{ 
+    font-size: 32px;
+    width: 200px;
+    height: 130px;
+    border-radius: 35%;
+    color: white;
+    background-color: cadetblue;
+    border: 3px solid black;
+    margin-bottom: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 530;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: darkblue;
+}
+
+#random-order{
+    margin-right: 25%;
+    float: right;
+}
+
+#sequential-order{
+    margin-left: 25%;
+}
+
+#button-container{
+    margin-top: 15%;
+}

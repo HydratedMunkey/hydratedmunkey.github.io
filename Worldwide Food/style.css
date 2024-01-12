@@ -1,0 +1,91 @@
+/*
+   Use the glasses' classes to apply filters to the glass images
+*/
+
+.platter{
+    transition: 
+    height 2s, 
+    width 2s, 
+    background-image 2.5s, 
+    transform 3s;
+}
+
+.platter:hover .label {
+    visibility: visible;
+}
+
+.platter:hover {
+    transform: rotate(360deg);
+    height: 400px;
+    width: 400px;
+}
+
+img.even{
+    filter: sepia(80%);
+}
+
+img.odd{
+    filter: grayscale(80%);
+    filter: contrast(100%);
+}
+
+#fajitas:hover{
+    background-image:url("https://codehs.com/uploads/6243c1b771b83120b70770a16cef8209");
+}
+
+#hummus:hover{
+    background-image:url("https://codehs.com/uploads/bc41c0188ad8c13fdf85a4b6c360cee4");
+}
+
+#massaman:hover{
+    background-image:url("https://codehs.com/uploads/0c5718b6da3ffb85901f6f18ea34d0ca");
+}
+
+#paella:hover{
+     background-image:url("https://codehs.com/uploads/4d2cd36f45267160b0db846606104ea0")
+}
+
+#pho:hover{
+    background-image:url("https://codehs.com/uploads/1929782939fb200100f4118e25bdca40");
+}
+
+#pierogi:hover{
+    background-image:url("https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8");
+}
+
+/* Put your styles ABOVE this line */
+div.platter{
+    position:relative;
+    background-size:100% 100%;
+    height:200px;
+    width:200px;
+    background-image:url("https://codehs.com/uploads/89cf9fba5b5692f3062d7b671ace4feb");
+   
+}
+
+.label{
+    color:white;
+    text-shadow: 2px 2px 3px gray;
+    visibility:hidden; /* hide the text for now */
+}
+
+img{
+    height:50px;
+    width:50px;
+    position:inline;
+}
+
+body{
+    background-image:url("https://codehs.com/uploads/60fd1ac556621008606e14964e87dbd2");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    text-align:center;
+}
+
+ul{
+    list-style-type:none;  /* remove bullets */
+}
+
+li{
+    display:inline-flex; /* force list items to be in one line */
+}

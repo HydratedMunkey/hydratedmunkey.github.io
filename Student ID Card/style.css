@@ -1,0 +1,80 @@
+/* *{
+    border: 2px solid purple;
+} */
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+label{
+    font-size: 2rem;
+    text-align: center;
+}
+
+input{
+    font-size: 2rem;
+    margin-bottom: 0.5%;
+}
+
+#submitButton{
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+}
+
+#input-container{
+    text-align: center;
+}
+
+#card{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    visibility: hidden;
+    background-color: lightyellow;
+}
+
+#picture{
+    width: 120px;
+    margin: 5%;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+#studentInfo{
+    width: 180px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+
+#schoolLogo{
+    width: 100px;
+    float: right;
+}
+
+#studentPicture{
+    width: 150px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+#warning{
+    text-align: center;
+    visibility: hidden;
+}
+
+#studentInfo h2 {
+    margin-bottom: 10%;
+    font-size: 1.5rem;
+}

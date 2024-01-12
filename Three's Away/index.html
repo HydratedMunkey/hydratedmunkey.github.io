@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title> Way Cool Dice Project </title>
+        <link  href = "style.css" rel = "stylesheet">
+    </head>
+    
+    <body>
+        
+        <div id = "main-container">
+            
+            <div id = "score-box">
+                <h1> Scoreboard </h1>
+                <h2 id = "p1Score"> Player 1 Score: </h1>
+                <h2 id = "p1Wins"> Player 1 Wins: </h2>
+                <h2 id = "p2Score"> Player 2 Score: </h1>
+                <h2 id = "p2Wins"> Player 2 Wins: </h2>
+            </div>
+            
+            <div id = "settings">
+                <h1> Settings </h1>
+                <input type = "checkbox" id = "explanation-toggle" onclick = "toggleExplanation()">
+                <label for = "explanation-toggle"> Enable explanation </label>
+                <br>
+                <input type = "checkbox" id = "restart-toggle">
+                <label for = "restart-toggle"> Enable restarting</label>
+            </div>
+            
+            <h1 class = "title"> Three's Away </h1>
+            
+            
+            <h1 id = "player1Message"> Player 1's Dice </h1>
+            
+            <div id = "die-container">
+                <canvas id = "die1" width = "140px", height = "140px" onclick = "keepDie(die1)"></canvas>
+                <canvas id = "die2" width = "140px", height = "140px" onclick = "keepDie(die2)"></canvas>
+                <canvas id = "die3" width = "140px", height = "140px" onclick = "keepDie(die3)"></canvas>
+                <canvas id = "die4" width = "140px", height = "140px" onclick = "keepDie(die4)"></canvas>
+                <canvas id = "die5" width = "140px", height = "140px" onclick = "keepDie(die5)"></canvas>
+                <canvas id = "die6" width = "140px", height = "140px" onclick = "keepDie(die6)"></canvas>
+            </div>
+            
+            <div id = "player2-dice">
+                <h1 id = "player2Message"> Player 2's Dice </h1>
+                <canvas id = "die7" width = "140px", height = "140px" onclick = "keepDie(die7)"></canvas>
+                <canvas id = "die8" width = "140px", height = "140px" onclick = "keepDie(die8)"></canvas>
+                <canvas id = "die9" width = "140px", height = "140px" onclick = "keepDie(die9)"></canvas>
+                <canvas id = "die10" width = "140px", height = "140px" onclick = "keepDie(die10)"></canvas>
+                <canvas id = "die11" width = "140px", height = "140px" onclick = "keepDie(die11)"></canvas>
+                <canvas id = "die12" width = "140px", height = "140px" onclick = "keepDie(die12)"></canvas>
+            </div>
+            
+            <div id = "button-container">
+                <button onclick = "rollDice()" id = "roll-button"> Roll Dice </button>
+                <button onclick = "restartGame()" id = "restart-button"> Restart Game </button>
+            </div>
+            
+            <div id = "explanation">
+                <h1 class = "title"> Explanation </h1>
+                <h2> 
+                    The goal of Three's Away is to get the lowest score. 
+                    Every time you roll the die, you have to choose a die 
+                    to keep. Green dice are clickable, red aren't. 
+                    Click on a die to keep it and add it to your 
+                    score. If you roll a three you must keep it. After
+                    keeping a die, you can roll the rest of your dice. 
+                    Repeat until you no longer have any more dice. 
+                    After player 1 is done, it's player 2's turn. 
+                    Remember, whoever has the lowest score wins!
+                </h2>
+            </div>
+            
+        </div>
+        
+        <script src = "code.js"></script>
+    </body>
+    </html>
